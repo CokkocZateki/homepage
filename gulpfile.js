@@ -72,4 +72,4 @@ gulp.task('watch', ['bowerdeps', 'script', 'less', 'jade'], function() {
   gulp.watch(paths.script, ['script-watch'])
 })
 
-gulp.task('default', ['less', 'jade'])
+gulp.task('default', ['bowerdeps', 'script', 'less', 'jade'])
