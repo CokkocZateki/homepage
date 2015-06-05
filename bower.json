@@ -1,0 +1,27 @@
+{
+  "name": "j4lp_homepage",
+  "version": "1.0.0",
+  "authors": [
+    "@adrien-f"
+  ],
+  "description": "Homepage for Eve Online Alliance, J4LP",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "waypoints": "~3.1.1",
+    "bootstrap": "~3.3.4",
+    "counter-up": "~1.0.0",
+    "jquery-flot": "~0.8.3",
+    "chartjs": "~1.0.2"
+  }
+}

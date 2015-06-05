@@ -1,0 +1,129 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+body {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em;
+  background: -webkit-linear-gradient(90deg, #232526 10%, #414345 90%);
+  background:    -moz-linear-gradient(90deg, #232526 10%, #414345 90%);
+  background:     -ms-linear-gradient(90deg, #232526 10%, #414345 90%);
+  background:      -o-linear-gradient(90deg, #232526 10%, #414345 90%);
+  background:         linear-gradient(90deg, #232526 10%, #414345 90%);
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background: url('./bg.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25em;
+  margin: 0;
+  color: white;
+  text-rendering: optimizeLegibility;
+  }
+
+.homepage-title {
+  font-size: 3em;
+  font-weight: 300;
+  color: #fff;
+  padding-bottom: 20px;
+  img {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+  }
+}
+
+.homepage-subtitle {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+header {
+  padding-bottom: 20px;
+}
+
+.members {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.legend {
+  font-size: 1.2em;
+}
+
+.counter {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.services {
+  padding-bottom: 40px;
+}
+.services-wrapper {
+  padding-top: 20px;
+  h3 {
+    padding-bottom: 40px;
+  }
+}
+
+.services-list {
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+.service.list-group-item {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.service:first-child {
+  border-top: 2px solid white;
+}
+
+.service {
+  text-shadow: 0px -1px 0px #303030;
+  border: none;
+  padding: 10px;
+  border-bottom: 2px solid white;
+  margin-top: 1px;
+  transition: background-color 200ms linear;
+  background-color: transparent;
+
+  &:hover {
+    background-color: lighten(#232526, 30%);
+  }
+  a {
+    color: #fff;
+    font-size: 1.1em;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  span {
+    padding-left: 5px;
+  }
+  small {
+    float: right;
+  }
+}
+
+.leadership {
+  padding-top: 40px;
+  h3 {
+    padding-bottom: 40px;
+  }
+}
+
+.leader {
+  padding-bottom: 20px;
+  img {
+    border-radius: 50%;
+    box-shadow: 0px -1px 0px #303030;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}

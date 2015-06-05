@@ -1,0 +1,60 @@
+{
+  "services": [
+    {
+      "name": "Auth",
+      "icon": "lock",
+      "description": "Full featured authentication platform"
+    },
+    {
+      "name": "HR",
+      "icon": "group",
+      "description": "Application platform"
+    },
+    {
+      "name": "Forum",
+      "icon": "comments-o",
+      "description": "Bad memes, important announcements and chit chat"
+    },
+    {
+      "name": "Wiki",
+      "icon": "book",
+      "description": "Knowledge database"
+    },
+    {
+      "name": "Jabber",
+      "icon": "comments-o",
+      "description": "Out of game communications and notifications"
+    },
+    {
+      "name": "Mumble",
+      "icon": "microphone",
+      "description": "Real time voice communications"
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Rina Kondur",
+      "title": "Alliance CEO",
+      "corporation": "CEO of Fweddit",
+      "id": "92014786"
+    },
+    {
+      "name": "Chainsaw McGinny",
+      "title": "Director",
+      "corporation": "Fweddit",
+      "id": "92014786"
+    },
+    {
+      "name": "Vadrin Hegirin",
+      "title": "Lead IT",
+      "corporation": "Fweddit",
+      "id": "90721100"
+    },
+    {
+      "name": "Vadrin Hegirin",
+      "title": "Lead IT",
+      "corporation": "Fweddit",
+      "id": "90721100"
+    }
+  ]
+}

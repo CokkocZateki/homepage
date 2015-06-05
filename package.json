@@ -1,0 +1,22 @@
+{
+  "name": "j4lp_homepage",
+  "version": "1.0.0",
+  "description": "Homepage for Eve Online Alliance, J4LP",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@adrien-f",
+  "license": "MIT",
+  "devDependencies": {
+    "bower-files": "^3.7.0",
+    "browser-sync": "^2.7.6",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-data": "^1.2.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-uglify": "^1.2.0"
+  }
+}
